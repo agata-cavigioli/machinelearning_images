@@ -1,0 +1,16 @@
+train: train/
+val: valid/  
+test: test/  
+
+# number of classes
+nc: 1
+
+# class names
+names: [ 'plate' ]
+
+roboflow:
+  workspace: itrc
+  project: plate-detection-y5
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/itrc/plate-detection-y5/dataset/1
